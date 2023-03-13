@@ -142,6 +142,8 @@ Ważnym aspektem pracy z dziesiętnymi liczbami zmiennoprzecinkowymi jest sposó
 
 **Listing 3**
 ```python
+import Decimal
+
 print((0.1 + 0.2) == 0.3)  # kto by się spodziewał ?
 print(round((0.1 + 0.2), 2) == round(0.3, 2))  # teraz lepiej
 print((Decimal(0.1) + Decimal(0.2)) == Decimal(0.3))
