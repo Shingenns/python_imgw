@@ -134,6 +134,15 @@ print(type(liczba))
 
 # zmienne można również zadeklarować w jednej linii
 a, b = 3, 4
+
+# typ int w Pythonie nie ma odgórnego ograniczenia jeżeli chodzi o
+# maksymalną wartość (32 czy 64 bity), a jedyne ograniczenie to ilość dostępnej pamięci
+
+# nieco inaczej jest w przypadku typu float
+# maksymalna precyzja zależy od wersji interpretera i systemu
+# operacyjnego, a szczegóły można znaleźć tu:
+# 1. https://note.nkmk.me/en/python-sys-float-info-max-min/
+# 2. https://docs.python.org/3/tutorial/floatingpoint.html
 ```
 
 W przypadku liczb rzeczywistych można również określić precyzję, z jaką zostaną wyświetlone (ale nie przechwywane w pamięci), ale stosowny przykład znajduje się w kolejnym podrozdziale.
@@ -142,7 +151,7 @@ Ważnym aspektem pracy z dziesiętnymi liczbami zmiennoprzecinkowymi jest sposó
 
 **Listing 3**
 ```python
-import Decimal
+from decimal import Decimal
 
 print((0.1 + 0.2) == 0.3)  # kto by się spodziewał ?
 print(round((0.1 + 0.2), 2) == round(0.3, 2))  # teraz lepiej
