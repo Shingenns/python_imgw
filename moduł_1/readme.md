@@ -56,3 +56,6 @@ Wyszukujemy frazę „Python” i na odpowiednim elemencie z listy wybieramy _**
 ![Instalacja krok 1](lab_00_5.png)
 
 To już prawie wszystko, aby móc pracować z językiem Python z wykorzystaniem Visual Studio Code. Szczegóły i dodatkowe możliwości narzędzia zostaną zaprezentowane podczas zajęć.
+
+Aby poprawiać produktywność warto przyswajać sukcesywnie skróty klawiaturowe.
+Skróty dla VSC w zwięzłej formie można znaleźć pod adresem: https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf
