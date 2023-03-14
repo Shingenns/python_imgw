@@ -309,3 +309,29 @@ for i in frange(0.1, 0.5, 0.1):
 
 Dla osób chcących przenieść swoją wiedzę na temat list i krotek na nieco wyższy poziom, zachęcam do przeczytania artykułu na temat mechanizmu alokacji pamięci dla tych dwóch typów w implementacji CPython: https://www.opensourceforu.com/2021/05/memory-management-in-lists-and-tuples/
 Można tam znaleźć również informacje o złożoności obliczeniowej wybranych metod dla klasy `list` co może pomóc w procesie optymalizacji kodu wykorzystującego te kolekcje.
+
+> ## **Zadania**
+
+**Zadanie 1**  
+Stwórz listę z wartościami od 1 do 10. Następnie podziel listę tak, aby pierwsze 5 liczb zostało w oryginalnej liście a pozostałe 5 znalazło się w nowej liście.
+
+**Zadanie 2**  
+Połącz te listy ponownie. Dodaj do listy wartość „0” na początku. Utwórz kopię połączonej listy i wyświetl listę posortowaną malejąco.
+
+**Zadanie 3**  
+Napisz skrypt, który pobierze dowolny tekst ze standardowego wejścia poprzez funckję `input()`. Następnie wyświetl ciąg unikalnych znaków z wczytanego zdania, zapisanych alfabetycznie małymi literami.
+
+**Zadanie 4**  
+Stwórz słownik gdzie kluczami będą numery miesięcy (rozpoczynając od 1) a wartościami nazwy polskich miesięcy.
+
+**Zadanie 5**  
+Stwórz podobny słownik jak w zadaniu 1, ale z angielskimi nazwami miesięcy. Połącz teraz słowniki tak, żeby przykładowo dla kwietnia, dostać się poprzez wyrażenie: months['pl'][4] a dla wersji angielskiej poprzez months['en'][4].
+
+**Zadanie 6**  
+Wykorzystując ciąg tekstowy 'Marianna' oraz metodę **fromkeys()** dla słowników stwórz słownik, który będzie zawierał jako klucze unikalne litery w/w imienia a jako wartość każdy klucz będzie miał przypisaną wartość 1.
+Poprawne wyjście: `{'M': 1, 'a': 1, 'r': 1, 'i': 1, 'n': 1}`
+
+**Zadanie 7**  
+Wykorzystaj moduł `string` i następnie:
+* wczytaj ze standardowego wejścia dowolny łańcuch znaków,
+* używając formatowania znaków wyświetl ile oraz jaki % znaków (zamienionych na małe litery) z wprowadzonego tekstu pokrywa się z: `string.ascii_lowercase, string.digits`.
