@@ -332,6 +332,6 @@ Wykorzystując ciąg tekstowy 'Marianna' oraz metodę **fromkeys()** dla słowni
 Poprawne wyjście: `{'M': 1, 'a': 1, 'r': 1, 'i': 1, 'n': 1}`
 
 **Zadanie 7**  
-Wykorzystaj moduł `string` i następnie:
+Wykorzystaj moduł `string` (`import string`) i następnie:
 * wczytaj ze standardowego wejścia dowolny łańcuch znaków,
 * używając formatowania znaków wyświetl ile oraz jaki % znaków (zamienionych na małe litery) z wprowadzonego tekstu pokrywa się z: `string.ascii_lowercase, string.digits`.
