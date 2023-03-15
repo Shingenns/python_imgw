@@ -288,7 +288,7 @@ __all__ = ['matma', 'jingle']
 
 Aby sprawdzić sposób działania poniższych listingów przedstawię najpierw strukturę katalogów i plików, które zostały wykorzystane w poniższych przykładach.
 
-![moduły](images/modules.jpg)
+![moduły](modules.jpg)
 
 Reasumując, został utworzony folder `mojpakiet` a w nim znajduje się plik `matma.py` przedstawiony na listingu w tym rozdziale.
 
