@@ -282,7 +282,7 @@ Napisz funkcję, która:
 
 Napisz funkcję, która wczytuje z pliku zawierającego imiona i nazwiska osób zapisane po jednym w linii, np.
 
-Marek Markowski
+Marek Markowski  
 Paweł Budzikowski
 
 Funkcja generuje dla podanej listy adresy e-mail postaci: imie.nazwisko@imgw.pl i zapisuje dane do nowego pliku dopisując przy wcześniejszym nazwisku wygenerowany adres, np.
