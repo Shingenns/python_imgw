@@ -1,4 +1,5 @@
 import requests
+import json
 from requests.exceptions import HTTPError
 
 
@@ -32,4 +33,13 @@ if __name__ == '__main__':
     base_url = 'http://api.openweathermap.org/geo/1.0/direct'
     city = 'Olsztyn'
 
-    print(get_data_by_datapoint(city, api_key))
+
+    # zapisujemy json, aby nie odpytywać API o dane dla miasta
+    # za każdym razem - zapisujemy tylko raz, więc poniższy fragment po zapisaniu można zakomentować
+    data = get_data_by_datapoint(city, api_key)
+    with open('datapoints.json', 'w') as plik:
+        json.dump(data, plik)
+
+
+    with open('dane_slownik.json', 'r') as plik:
+        loaded_data = json.load(plik)
