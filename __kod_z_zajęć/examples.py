@@ -1,4 +1,7 @@
 # przykłady wykorzystania wybranych funkcji wbudowanych
+
+# pełną listę funkcji wbudowanych można znaleźć pod adresem
+# https://docs.python.org/3.10/library/functions.html
 import math
 
 # filter
@@ -48,7 +51,7 @@ print(list(reversed(lista)))
 print(list(reversed('piąteczek')))
 print(list(reversed('kajak')))
 
-anagram = 'kajak'
+wyraz = 'kajak'
 
-if anagram == ''.join(reversed(anagram)):
-    print(f'{anagram} to anagram!')
+if wyraz == ''.join(reversed(wyraz)):
+    print(f'{wyraz} to anagram!')
