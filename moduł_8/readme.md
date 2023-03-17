@@ -88,9 +88,9 @@ Zapytanie o dane pogodowe odbywa się do innego adresu.
 
 Przykład:
 
-https://api.openweathermap.org/data/3.0/onecall?lat=33.44&lon=-94.04&exclude=hourly,daily&appid={API key}
+https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={API key}
 
-Szczegóły znajdują się pod adresem: https://openweathermap.org/api/one-call-3
+Szczegóły znajdują się pod adresem: https://openweathermap.org/current
 
 Pakiet `requests` umożliwia również wysyłanie innych typów żadań, autentykacji czy utrzymywania sesji z odległym serwerem. Opis tych zagadnień można znaleźć tu:
 * https://pypi.org/project/requests/
