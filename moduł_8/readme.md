@@ -58,11 +58,11 @@ for url in ['https://api.github.com', 'https://api.github.com/invalid']:
 ```
 
 Przykład z odpytaniem serwisu openweather.com. 
-> **UWAGA!** Użyty klucz API jest przypisany do mojego konta i jest ograniczony do 1000 żądań na dobę.
+
 
 **Listing 4**
 ```python
-api_key = '715008316b246c53036d6cd738a42d2d'
+api_key = '<tu klucz z API>'
 city = 'Olsztyn'
 
 # poniższy url służy do odpytania API o szczegóły geo dla danego miasta
